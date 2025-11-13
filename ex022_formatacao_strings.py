@@ -1,0 +1,6 @@
+  n = str(input('Nome completo: ')).strip()
+print('Maiúscula: {}'.format(n.upper()))
+print('Minúscula: {}'.format(n.lower()))
+x = n.split()
+print('Total de letras: {}'.format(len(''.join(x))))
+print('Total de letras do 1° nome: {}'.format(len(x[0])))
